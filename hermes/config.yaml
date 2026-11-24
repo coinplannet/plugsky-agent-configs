@@ -1,0 +1,6 @@
+# ~/.hermes/config.yaml
+model:
+  default: plugsky-lite
+  provider: custom
+  base_url: https://api.plugsky.com/v1
+  key_env: PLUGSKY_API_KEY
