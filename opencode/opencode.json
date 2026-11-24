@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "plugsky": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Plugsky",
+      "options": {
+        "baseURL": "https://api.plugsky.com/v1",
+        "apiKey": "{env:PLUGSKY_API_KEY}"
+      },
+      "models": {
+        "plugsky-lite": { "name": "Plugsky Lite" },
+        "plugsky-micro": { "name": "Plugsky Micro" }
+      }
+    }
+  }
+}
