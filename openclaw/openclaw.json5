@@ -1,0 +1,32 @@
+{
+  // OpenClaw config: merge under models.providers in your openclaw.json
+  models: {
+    providers: {
+      plugsky: {
+        baseUrl: "https://api.plugsky.com/v1",
+        api: "openai-completions",
+        apiKey: "${PLUGSKY_API_KEY}",
+        models: [
+          {
+            id: "plugsky-lite",
+            name: "Plugsky Lite",
+            contextWindow: 262144,
+            maxTokens: 8192,
+            input: ["text", "image"]
+          },
+          {
+            id: "plugsky-micro",
+            name: "Plugsky Micro",
+            contextWindow: 262144,
+            maxTokens: 8192
+          }
+        ]
+      }
+    }
+  },
+  agents: {
+    defaults: {
+      model: { primary: "plugsky/plugsky-lite" }
+    }
+  }
+}
