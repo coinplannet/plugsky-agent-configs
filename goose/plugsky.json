@@ -1,0 +1,14 @@
+{
+  "name": "plugsky",
+  "engine": "openai",
+  "display_name": "Plugsky",
+  "description": "Plugsky OpenAI-compatible API",
+  "api_key_env": "PLUGSKY_API_KEY",
+  "base_url": "https://api.plugsky.com/v1/chat/completions",
+  "models": [
+    { "name": "plugsky-pro", "context_limit": 262144 },
+    { "name": "plugsky-coder", "context_limit": 262144 }
+  ],
+  "supports_streaming": true,
+  "requires_auth": true
+}
