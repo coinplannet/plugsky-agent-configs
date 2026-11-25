@@ -33,6 +33,10 @@ Ready-to-paste configuration for using [Plugsky](https://plugsky.com) as an Open
 | OpenCode | [`opencode/opencode.json`](opencode/opencode.json) | Uses `@ai-sdk/openai-compatible` |
 | Codex CLI | [`codex/config.toml`](codex/config.toml) | Responses wire API; must be user-level config |
 | Cline | [`cline/README.md`](cline/README.md) | Built-in OpenAI Compatible provider |
+| Aider | [`aider/README.md`](aider/README.md) | `OPENAI_API_BASE` + `openai/plugsky-pro` |
+| Goose | [`goose/plugsky.json`](goose/plugsky.json) | Custom provider JSON; full `/chat/completions` base |
+| Zed | [`zed/settings.json`](zed/settings.json) | `language_models.openai_compatible` |
+| OpenHands | [`openhands/README.md`](openhands/README.md) | `openai/plugsky-pro` + base URL |
 | Continue | [`continue/config.yaml`](continue/config.yaml) | Coder + embed roles; `${{ secrets.PLUGSKY_API_KEY }}` |
 | Open Interpreter | [`open-interpreter/config.toml`](open-interpreter/config.toml) | TOML custom provider; `wire_api = "chat"` |
 
