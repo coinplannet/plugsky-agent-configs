@@ -25,6 +25,7 @@ Ready-to-paste configuration for using [Plugsky](https://plugsky.com) as an Open
 | Obsidian Copilot | [`obsidian-copilot/README.md`](obsidian-copilot/README.md) | BYOK → Add custom provider |
 | Big-AGI | [`big-agi/README.md`](big-agi/README.md) | OpenAI vendor API Host |
 | Page Assist | [`page-assist/README.md`](page-assist/README.md) | OpenAI Compatible API → Custom |
+| Continue | [`continue/config.yaml`](continue/config.yaml) | Coder + embed roles; `${{ secrets.PLUGSKY_API_KEY }}` |
 | Cline | [`cline/README.md`](cline/README.md) | UI steps for the built-in OpenAI Compatible provider |
 | Open WebUI | [`openwebui/README.md`](openwebui/README.md) | One env var or Admin → Connections |
 
