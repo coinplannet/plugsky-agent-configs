@@ -1,0 +1,16 @@
+{
+  "language_models": {
+    "openai_compatible": {
+      "plugsky": {
+        "api_url": "https://api.plugsky.com/v1",
+        "available_models": [
+          {
+            "name": "plugsky-pro",
+            "display_name": "Plugsky Pro",
+            "max_tokens": 262144
+          }
+        ]
+      }
+    }
+  }
+}
