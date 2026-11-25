@@ -1,0 +1,16 @@
+version: 1.3.19
+cache: true
+endpoints:
+  custom:
+    - name: "Plugsky"
+      apiKey: "${PLUGSKY_API_KEY}"
+      baseURL: "https://api.plugsky.com/v1"
+      models:
+        default:
+          - "plugsky-pro"
+          - "plugsky-max"
+          - "plugsky-lite"
+        fetch: true
+      titleConvo: true
+      titleModel: "plugsky-lite"
+      modelDisplayLabel: "Plugsky"
