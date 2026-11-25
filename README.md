@@ -16,6 +16,15 @@ Ready-to-paste configuration for using [Plugsky](https://plugsky.com) as an Open
 | Codex CLI | [`codex/config.toml`](codex/config.toml) | Responses wire API; must be user-level config |
 | LibreChat | [`librechat/librechat.yaml`](librechat/librechat.yaml) | Custom endpoint; `fetch: true` pulls the live model list |
 | AnythingLLM | [`anythingllm/README.md`](anythingllm/README.md) | Generic OpenAI provider in Settings → LLM Preference |
+| LobeChat | [`lobe-chat/README.md`](lobe-chat/README.md) | OpenAI proxy URL + env |
+| NextChat | [`nextchat/README.md`](nextchat/README.md) | Endpoint is host only; do not add `/v1` |
+| Jan | [`jan/README.md`](jan/README.md) | UI or `jan config set --base-url` |
+| Chatbox | [`chatbox/README.md`](chatbox/README.md) | API Host + `/v1/chat/completions` path |
+| Cherry Studio | [`cherry-studio/README.md`](cherry-studio/README.md) | Add Provider → API Host |
+| SiYuan | [`siyuan/README.md`](siyuan/README.md) | Custom preset; one-line provider PR |
+| Obsidian Copilot | [`obsidian-copilot/README.md`](obsidian-copilot/README.md) | BYOK → Add custom provider |
+| Big-AGI | [`big-agi/README.md`](big-agi/README.md) | OpenAI vendor API Host |
+| Page Assist | [`page-assist/README.md`](page-assist/README.md) | OpenAI Compatible API → Custom |
 | Cline | [`cline/README.md`](cline/README.md) | UI steps for the built-in OpenAI Compatible provider |
 | Open WebUI | [`openwebui/README.md`](openwebui/README.md) | One env var or Admin → Connections |
 
