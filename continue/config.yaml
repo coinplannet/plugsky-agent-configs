@@ -1,0 +1,26 @@
+name: Plugsky
+version: 0.0.1
+schema: v1
+
+models:
+  - name: Plugsky Coder
+    provider: openai
+    model: plugsky-coder
+    apiBase: https://api.plugsky.com/v1
+    apiKey: ${{ secrets.PLUGSKY_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      contextLength: 262144
+      maxTokens: 8192
+      temperature: 0.2
+
+  - name: Plugsky Embed
+    provider: openai
+    model: plugsky-embed
+    apiBase: https://api.plugsky.com/v1
+    apiKey: ${{ secrets.PLUGSKY_API_KEY }}
+    roles:
+      - embed
