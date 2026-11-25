@@ -6,6 +6,10 @@ Ready-to-paste configuration for using [Plugsky](https://plugsky.com) as an Open
 
 > **Free tier reality check:** the free plan is for evaluation — 100 requests/day, 50K tokens/day, 1 concurrent request, 32K input / 2K output, Micro/Lite models. Agent loops burn through that quickly. For sustained agent use, Hobby at $8/month gives 1,000 requests/day, 2M tokens/day, 4 concurrent, 120 RPM and 64K input / 8K output.
 
+## Universal provider metadata
+
+[`provider.json`](provider.json) is a small, vendor-neutral descriptor for projects that want to add Plugsky as a provider without hardcoding values: base URL, env var, free models, popular models, docs, pricing and MCP endpoint.
+
 ## Configs
 
 | Tool | File | Notes |
