@@ -1,0 +1,15 @@
+{
+  "id": "plugsky",
+  "name": "Plugsky",
+  "api": "https://api.plugsky.com/v1",
+  "env": ["PLUGSKY_API_KEY"],
+  "docs": "https://plugsky.com/docs",
+  "pricing": "https://plugsky.com/pricing",
+  "models_url": "https://api.plugsky.com/v1/models",
+  "mcp": "https://plugsky.com/mcp",
+  "free_models": ["plugsky-micro", "plugsky-lite"],
+  "popular_models": ["plugsky-pro", "plugsky-max", "plugsky-coder"],
+  "openai_compatible": true,
+  "auth": "bearer",
+  "notes": "39 public model IDs. Free plan: 100 requests/day, 50K tokens/day, no card. Builder and Scale have no monthly token cap, no per-token overage and no pay-as-you-go meter."
+}
