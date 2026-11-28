@@ -71,3 +71,15 @@ Ready-to-paste configuration for using [Plugsky](https://plugsky.com) as an Open
 - Free tier details: https://plugsky.com/free-llm-api
 - MCP setup: https://plugsky.com/features/mcp
 - Model catalogue: https://plugsky.com/models
+
+
+## Enterprise options
+
+For teams moving from an agent config to a contracted deployment:
+
+- Enterprise AI API package: https://plugsky.com/enterprise/ai-api-package
+- Sovereign AI package: https://plugsky.com/enterprise/sovereign-ai-package
+- Enterprise AI API verification checklist: https://plugsky.com/articles/enterprise-ai-api-verification-checklist
+- Enterprise AI platform comparison (2027): https://plugsky.com/best/enterprise-ai-platform-2027
+
+Flat plans Builder ($60/mo) and Scale ($120/mo) have no monthly token cap and no per-token overage; fair-use concurrency and RPM limits still apply. Annual billing saves 20%; first month 30% off, capped at $20; 7-day guarantee. Private deployment is by contract in Virginia, Frankfurt, UAE and Singapore, with Riyadh on Enterprise only. Security work is aligned with SOC 2 and ISO 27001 practices; no certifications are held, documentation is under NDA, and there is no FedRAMP authorization.
